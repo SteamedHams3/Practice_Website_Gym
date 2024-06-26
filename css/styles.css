@@ -12,8 +12,32 @@
  }
  
  ul {
-    padding-left: 250px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 0;
+
  }
  li {
-    padding-left: 250px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 0;
  }
+
+ @media (min-width: 992px) {
+    ul {
+        padding-left: 100px;
+    }
+
+    li {
+        padding-left: 100px;
+    }
+}
+
+ @media (max-width: 991.98px) {
+    .navbar-collapse.show .navbar-nav,
+    .navbar-collapse.show .nav-item,
+    .navbar-collapse.show .nav-link {
+        padding-left: 0 !important;
+    }
+
+    
+}
+ 
