@@ -21,6 +21,37 @@
     padding-left: 0;
  }
 
+ .custom-img-homepage{
+   height: 550px;
+   object-fit: cover;
+   width: 100%;
+ }
+
+ .custom-img-left{
+   height: 550px;
+   object-fit: cover;
+ }
+ .custom-img-right{
+   height: 550px;
+   object-fit: cover;
+ }
+
+ .no-padding-margin{
+   padding: 0;
+   margin: 0;
+ }
+
+ .overlay-text-center{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: orangered;
+   text-align: center;
+   font-size: 24px;
+   
+ }
+
  @media (min-width: 992px) {
     ul {
         padding-left: 100px;
@@ -37,6 +68,8 @@
     .navbar-collapse.show .nav-link {
         padding-left: 0 !important;
     }
+
+  
 
     
 }
